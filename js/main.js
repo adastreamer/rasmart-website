@@ -1,4 +1,13 @@
 $(document).ready(function(){
+ if (screen.width < 576) {
+  $('.cases_btn').attr('href', '#scroll_text');
+}
+
+$('.soon_btn').click(function(){
+swal("Coming soon!", "");
+  });
+
+
  	$('.IOT').click(function(){
  		$('.cases__content_box').addClass('hide');
   		$('.iot-content').removeClass('hide');
@@ -193,9 +202,10 @@ $("#form").submit(function() {
       data: $(this).serialize()
     }).done(function() {
       $(this).find("input").val("");
-      swal("Good job!", "You clicked the button!", "success");
+      swal("Thanks for your support!", "", "success");
       $("#form").trigger("reset");
     });
     return false;
   });
 });
+

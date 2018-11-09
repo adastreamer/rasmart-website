@@ -233,7 +233,7 @@ h2{
 .cases_btn{
   text-align: center;
   text-transform: uppercase;
-  color: #000;
+  color: #000 !important;
   font-size: 16px;
   font-family: PNR;
   display: inline-block;
@@ -269,7 +269,7 @@ h2{
  
 }
 h3{
-  margin-left: 65px;
+  margin-left: 40px;
   font-size: 36px;
   font-family: PNB;
   transition: all 2s ease;
@@ -278,7 +278,7 @@ h3{
   font-size: 30px;
   font-family: PNR;
   line-height: 30px;
-  text-align: center;
+  text-align: left;
 }
 .hide{
   display:none;
@@ -313,6 +313,8 @@ h3{
   display: inline-block;
   z-index: 1000;
   position: absolute;
+  cursor: pointer;
+  z-index: 11;
 }
 .figure_sec_point{
   cursor: pointer;
@@ -323,7 +325,6 @@ h3{
   border: 3px solid #8374ff;
   border-radius: 50%;
   margin: 0 auto;
-  margin-bottom: 20px;
   margin-top: 10px;
   box-shadow: 0px 0px 20px 13px rgba(131,116,255, 0.75);
   box-sizing: content-box;
@@ -341,6 +342,19 @@ h3{
   left: calc(50% - 256px);
   z-index: 100;
 }
+.figure_sec_text:hover .inner {
+  top: -64px;
+  opacity: 1;
+  visibility: visible;
+  z-index: 9999;
+}
+.figure_sec_text:hover .inner:before {
+  visibility: visible;
+  transform: translate(-50%, -50%) scale(1);
+  transition: .3s linear;
+  
+}
+
 
 
 .figure_info-win:hover .inner {
@@ -1626,8 +1640,20 @@ h5{
     transform: scale(1, 1);
   }
 }
-
 .hidden-xs-up{
   opacity: 0;
 }
+.consensus_block .figure_sec_text span{
+  transform: translate(-50%, -25%) !important;
+}
+.flexible_block .figure_sec_text span{
+  transform: translate(-50%, -40%) !important;
+}
+.security_block .figure_sec_text span{
+  transform: translate(-50%, -25%) !important;
+}
+.contact_block .figure_sec_text span{
+  transform: translate(-50%, -50%) !important;
+}
+
 

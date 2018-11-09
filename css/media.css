@@ -268,6 +268,16 @@
 .btnflip{
 	left: 364px;
 }
+.contact_block .figure_sec_text span{
+  transform: translate(-50%, -40%) !important;
+}
+.consensus_block .figure_sec_text span{
+  transform: translate(-50%, -5%) !important;
+}
+.flexible_block .figure_sec_text span{
+  transform: translate(-50%, -15%) !important;
+}
+
 	
 }
 
