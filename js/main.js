@@ -1,7 +1,16 @@
 $(document).ready(function(){
  if (screen.width < 576) {
   $('.cases_btn').attr('href', '#scroll_text');
+  }
+
+if (screen.width < 768) {
+    $('.tooltip-down').removeClass('tooltip_timeline-content-down');
+    $('.tooltip-down').addClass('tooltip_timeline-content');
+    $('.tooltip-arrow-down').removeClass('tooltip_timeline-arrow-down');
+    $('.tooltip-arrow-down').addClass('tooltip_timeline-arrow');
 }
+
+
 
 $('.soon_btn').click(function(){
 swal("Coming soon!", "");
@@ -192,6 +201,9 @@ $('.lblInp input').keyup(function() {
 });
 
 
+$('[data-fancybox="video"]').fancybox({
+  // Options will go here
+  });
 
 $(document).ready(function(){
 
