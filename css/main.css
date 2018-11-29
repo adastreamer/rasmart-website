@@ -208,7 +208,7 @@ h2{
 }
 /*Cases*/
 .cases{
-  background: url(../img/cases_background.png) no-repeat center top / cover;
+  background:black;
   padding: 60px 0;
 }
 .casee_info{
@@ -775,7 +775,7 @@ h5{
 }
 /*Footer*/
 .footer{
-  background: #222222;
+  background:black;
   padding: 70px 0;
 }
 .footer_text{
