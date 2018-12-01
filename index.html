@@ -955,22 +955,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div class="col-md-6 col-12">
     			<div class="modal-box">
       		
-	     		 	<form  action="#" class="form_modal" method="post">
+	     		 	<form id="feedback" action="/feedbacks" class="form_modal" method="post">
 				 	<label class="lblInp m-btm-40" for="name">
-				    <input type="name" id="name" name="user_name" required>
+				    <input type="name" id="name" name="feedback[name]" required>
 				    <label for="name">Name</label>
 				    <i class="fas fa-user-alt" aria-hidden="true"></i>
 
 				  	</label>
 				   	<label class="lblInp m-btm-40" for="mail">
-				    <input type="email" id="mail" name="user_email"required>
+				    <input type="email" id="mail" name="feedback[email]" required>
 				    <label for="mail">E-mail</label>
 				    <i class="fa fa-envelope" aria-hidden="true"></i>
 				  	</label>
- 					<textarea name="" id="" placeholder="Your Text" required></textarea>
+ 					<textarea name="feedback[text]" id="" placeholder="Your Text" required></textarea>
 
 
-				 	 <button type="submite" class="modal__form_btn">Send</button>
+				 	 <button type="submit" class="modal__form_btn">Send</button>
 
 
 					</form>
@@ -979,9 +979,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 			<div class="col-md-6 col-12">
 				<div class="form_block_sub">
-					<form action="#">
-						<input type="email" placeholder="Enter email addres">
-						<button>Subscribe</button>
+					<form id="subscription" action="/subscriptions">
+						<input required type="email" name="subscription[email]" placeholder="Enter email addres">
+						<button type="submit">Subscribe</button>
 					</form>
 				</div>
 			</div>
@@ -1152,5 +1152,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/slick.min.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/extra.js"></script>
 </body>
 </html>
