@@ -151,6 +151,7 @@ h2{
   font-size: 36px;
   font-family: PNB;
   text-align: center;
+  text-transform: uppercase;
 }
 /*BTN play*/
 .play_btn_box {
@@ -414,8 +415,8 @@ h3{
 }
 
 .flexible_block{
-  right: 200px;
-  top: 160px;
+  right: 240px;
+  top: 145px;
 }
 
 .securityline img{
@@ -425,8 +426,8 @@ h3{
 }
 
 .security_block{
-  left: 640px;
-  top: -60px;
+  left: 652px;
+  top: -8px;
 }
 
 .contactline img{
@@ -436,9 +437,8 @@ h3{
 }
 
 .contact_block{
-
-  left: 100px;
-  top: -70px;
+  left: 135px;
+  top: -52px;
 }
 .figure_sec_text-contact{
   width: 359px;
@@ -452,10 +452,9 @@ h3{
   top: -12px;
 }
 
-.consensus_block{
-
-  left: 800px;
-  top: 480px;
+.consensus_block {
+    left: 813px;
+    top: 447px;
 }
 
 .speedline img{
@@ -465,8 +464,8 @@ h3{
 }
 
 .speed_block{
-  left: 200px;
-  top: 440px;
+  left: 225px;
+  top: 455px;
 }
 /*Team Advisors*/
 .team-advisors{
@@ -1831,7 +1830,7 @@ h5{
     display: block;
 }
 .form_block{
-  background: url(../img/video_background.png) no-repeat center center / cover;
+  background: #000;
   padding: 40px;
 }
 .footer a {
@@ -1886,6 +1885,40 @@ h5{
 }
 .form_block_sub button:hover{
   background: #4b2fe6;
+}
+.documents{
+	background: url(../img/team-advisors_background.png) no-repeat center bottom / cover;
+	padding: 170px 0 100px 0;
+}
+.documents h2{
+	margin-bottom: 150px;
+}
+.documents_wrapper{
+	display: block;
+	background: url(../img/doc_ico.png) no-repeat left center ;
+	max-width: 250px;
+	min-height: 110px;
+	margin: 0 auto;
+	transition: all 0.4s ease;
+	transform: scale(1);
+	padding-left: 85px;
+	color: #fff;
+	font-size: 24px;
+	font-family: PNR;
+	margin-bottom: 80px;
+	padding-top: 15px;
+}
+.pt0{
+	padding-top: 0 !important;
+}
+.fa-file-alt{
+	font-size: 60px;
+}
+
+.documents_wrapper:hover{
+	transform: scale(1.05);
+	color: #5637ff;
+	background: url(../img/doc_ico_hover.png) no-repeat left center ;
 }
 
 

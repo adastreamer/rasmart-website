@@ -1,7 +1,7 @@
 @media screen and (max-width: 1200px){
 	.contact_block{
  		left: 60px;
-  		top: -70px;
+  		top: -52px;
 	}
 	.dropdown-lang {
     margin-left: 20px;
@@ -12,16 +12,20 @@
 	}
 
 	.security_block{
-  left: 550px;
-  top: -60px;
+  left: 558px;
+  top: -80px;
+}
+.securityline img{
+	left: -95px;
+    top: 16px;
 }
 .flexible_block{
-  right: 150px;
-  top: 160px;
+  right: 170px;
+  top: 144px;
 }
 .consensus_block{
-  left: 710px;
-  top: 480px;
+  left: 724px;
+  top: 446px;
 }
 .nav_item a{
   margin-right: 20px;
@@ -121,29 +125,30 @@
   		padding: 150px 0;
 	}
 	.figure_sec_main-figure {
-		transform: scale(0.7);
+		transform: scale(0.9);
 	}
 	.contact_block{
- 		left: 40px;
-  		top: -46px;
+ 		left: 70px;
+    	top: -35px;
 	}
 	.speed_block{
  	 	left: 50px;
   		top: 420px;
 	}
+	
 
 
 	.security_block{
-  left: 462px;
-  top: 13px;
+  left: 458px;
+    top: -11px;
 }
 .flexible_block{
-  right: 100px;
-  top: 165px;
+    right: 110px;
+    top: 156px;
 }
 .consensus_block{
-  left: 610px;
-  top: 420px;
+  left: 622px;
+  top: 435px;
 }
 
 .figure_sec_text{
@@ -158,11 +163,11 @@
   left: -146px;
   top: 60px;
 }
-.securityline img{
+.securityline img {
+    left: -115px;
+    top: 15px;
+	}
 
-  left: -130px;
-  top: -2px;
-}
 .contactline img{
  
   left: 14px;
@@ -260,8 +265,9 @@
 }
 
 	.contact_block{
- 		left: 50px;
-  		top: -47px;
+ 		    left: 37px;
+    top: -36px;
+
 	}
 	.speed_block{
  	 	left: 60px;
@@ -270,20 +276,20 @@
 	}
 
 	.security_block{
-	  	left: 363px;
-	  	top: 40px;
+	  	left: 370px;
+    	top: 25px;
 	}
 	.flexible_block{
 	  	right: 90px;
-	  	top: 170px;
+    top: 165px;
 	  	transform: scale(0.9);
 	}
 	.consensus_block{
-	 	 left: 365px;
-	 	 top: 400px;
+	 	left: 372px;
+    	top: 411px;
 	}
 	.figure_sec_main-figure {
-		transform: scale(0.5);
+		transform: scale(0.7);
 	}
 	.consensusline img{
   		left: -120px;
@@ -380,9 +386,19 @@ h1{
   width: 100%;
  
 }
+.documents{
+	padding: 80px 0 ;
+}
+.documents h2 {
+    margin-bottom: 80px;
+}
+.documents_wrapper{
+	max-width: 215px;
+	margin-bottom: 60px;
+}
 
 .figure_sec_main-figure {
-		transform: scale(0.3);
+		transform: scale(0.5);
 	}
 
 	.contact_block{
