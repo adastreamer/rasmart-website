@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'PNB';
+  src: url('../fonts/PNB.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/PNB.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/PNB.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/PNB.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/PNB.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/PNB.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'PNEXB';
+  src: url('../fonts/PNEXB.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/PNEXB.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/PNEXB.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/PNEXB.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/PNEXB.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/PNEXB.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+@font-face {
+  font-family: 'PNL';
+  src: url('../fonts/PNL.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/PNL.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/PNL.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/PNL.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/PNL.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/PNL.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+@font-face {
+  font-family: 'PNR';
+  src: url('../fonts/PNR.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/PNR.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/PNR.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/PNR.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/PNR.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/PNR.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+@font-face {
+  font-family: 'PS';
+  src: url('../fonts/PS.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/PS.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/PS.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/PS.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/PS.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/PS.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+
