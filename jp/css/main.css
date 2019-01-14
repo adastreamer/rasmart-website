@@ -1774,7 +1774,8 @@ h5{
     position: absolute;
     /*background: #000;*/
     z-index: 99;
-
+    height: 102px;
+    width: 67px;
     border: 2px solid #fff;
     border-radius: 10px;
     border-top: none;
@@ -1782,6 +1783,16 @@ h5{
     border-top-left-radius: 0px;
     top: 12px;
     padding-top: 20px;
+}
+
+
+
+
+@media (max-width: 992px) { 
+.dropdown-lang-content {
+height: 85px;
+width: 76px;
+}
 }
 .dropdown-lang-content a{
     color: #fff;

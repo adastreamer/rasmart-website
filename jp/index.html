@@ -9,7 +9,11 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'UA-129917998-1');
+ gtag('config', 'UA-129917998-1', {
+  'linker': {
+    'domains': ['rasmart.io', 'cn.rasmart.io', 'kr.rasmart.io', 'jp.rasmart.io']
+  }
+});
 </script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -75,7 +79,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<a href="#social">ソーシャルネットワーク</a>
 							</li>
 							<li class="nav_item ">
-								<a href="/profile" class="PNEXB" onclick="ga(‘send',‘event',‘button',‘profile'); return true;">プロフィール</a>
+								<a href="/profile" class="PNEXB">プロフィール</a>
 							</li>
 							<li class="nav_item" >
 								<div class="dropdown-lang">
@@ -123,7 +127,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<a href="#social">ソーシャルネットワーク</a>
 							</li>
 							<li class="nav_item vbn">
-								<a href="/profile" class="PNEXB" onclick="ga(‘send',‘event',‘button',‘profile'); return true;">プロフィール</a>
+								<a href="/profile" class="PNEXB">プロフィール</a>
 							</li>
 							<li>
 								<div class="dropdown-lang">
@@ -166,8 +170,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div class="row">
 				<div class="col-lg-5 col-12">
 					<div class="header__btn_wrapper">
-						<a href="doc/WhitePaper.pdf" class="header__btn" target="_blank" onclick="ga(‘send',‘event',‘button',‘WhitePapper'); return true;">ホワイトペーパー</a>
-						<a href="#" class="header__btn mr0 soon_btn" onclick="ga(‘send',‘event',‘button',‘YellowPapper'); return true;">テクニカルペーパー</a>
+						<a href="doc/WhitePaper.pdf" class="header__btn" target="_blank">ホワイトペーパー</a>
+						<a href="#" class="header__btn mr0 soon_btn">テクニカルペーパー</a>
 					</div>
 				</div>
 			</div>
@@ -185,7 +189,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div class="row">
 				<div class="col-lg-5 col-12">
 					<div class="header__btn_wrapper">
-						<a href="/profile" class="header__btn_big" onclick="ga(‘send',‘event',‘button',‘join'); return true;"><b>今すぐ参加する</b></a>
+						<a href="/profile" class="header__btn_big" ><b>今すぐ参加する</b></a>
 					</div>
 				</div>
 			</div>

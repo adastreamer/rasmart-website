@@ -9,7 +9,11 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'UA-129917998-1');
+  gtag('config', 'UA-129917998-1', {
+  'linker': {
+    'domains': ['rasmart.io', 'cn.rasmart.io', 'kr.rasmart.io', 'jp.rasmart.io']
+  }
+});
 </script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -75,7 +79,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<a href="#social">사회</a>
 							</li>
 							<li class="nav_item ">
-								<a href="/profile" class="PNEXB" onclick="ga(‘send',‘event',‘button',‘profile'); return true;">프로필</a>
+								<a href="/profile" class="PNEXB">프로필</a>
 							</li>
 							<li class="nav_item" >
 								<div class="dropdown-lang">
@@ -123,7 +127,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<a href="#social">사회</a>
 							</li>
 							<li class="nav_item vbn">
-								<a href="/profile" class="PNEXB" onclick="ga(‘send',‘event',‘button',‘profile'); return true;">프로필</a>
+								<a href="/profile" class="PNEXB">프로필</a>
 							</li>
 							<li>
 								<div class="dropdown-lang">
@@ -158,7 +162,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						RASMART
 					</div>
 					<h1>
-						미래를 위한 스마트 방법e.
+						미래를 위한 스마트 방법.
 					</h1>
 				</div>	
 			</div>
@@ -166,8 +170,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div class="row">
 				<div class="col-lg-5 col-12">
 					<div class="header__btn_wrapper">
-						<a href="doc/WhitePaper.pdf" class="header__btn" target="_blank" onclick="ga(‘send',‘event',‘button',‘WhitePapper'); return true;">백서</a>
-						<a href="#" class="header__btn mr0 soon_btn" onclick="ga(‘send',‘event',‘button',‘YellowPapper'); return true;">기술 문서</a>
+						<a href="doc/WhitePaper.pdf" class="header__btn" target="_blank" >백서</a>
+						<a href="#" class="header__btn mr0 soon_btn" >기술 문서</a>
 					</div>
 				</div>
 			</div>
@@ -185,7 +189,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div class="row">
 				<div class="col-lg-5 col-12">
 					<div class="header__btn_wrapper">
-						<a href="/profile" class="header__btn_big" onclick="ga(‘send',‘event',‘button',‘join'); return true;"><b>지금 가입</b></a>
+						<a href="/profile" class="header__btn_big" ><b>지금 가입</b></a>
 					</div>
 				</div>
 			</div>
