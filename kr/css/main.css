@@ -1931,7 +1931,12 @@ width: 76px;
 	color: #5637ff;
 	background: url(../img/doc_ico_hover.png) no-repeat left center ;
 }
-
+.beap {
+            font-size: 14px; 
+            font-family: PNB; 
+            text-align: center;
+            padding-top: 11px;
+            }
 
 
 
