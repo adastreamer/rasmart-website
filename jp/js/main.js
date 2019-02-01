@@ -111,7 +111,7 @@ $(".team_slider_foto").slick({
       settings: {
       	slidesToShow: 1,
         slidesToScroll: 1,
-        arrows: false
+        arrows: true
       }
 
     }
